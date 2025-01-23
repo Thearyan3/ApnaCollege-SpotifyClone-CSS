@@ -15,7 +15,7 @@ body {
 }
 
 .sidebar {
-    background-color: #121212;
+    background-color: darkgreen;
     width: 340px;
     border-radius: 1rem; /*16px*/
 }
@@ -33,4 +33,20 @@ body {
     bottom: 0px;
     width: 100%;
     height: 72px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
 }
