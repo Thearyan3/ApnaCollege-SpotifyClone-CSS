@@ -53,4 +53,20 @@ a{
 
 .nav-option{
     line-height: 2.5rem;
+    opacity: 0.75;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover{
+    line-height: 2.5rem;
+    opacity: 1;
+}
+
+.nav-option i{
+    line-height: 1.25rem;
+}
+
+.nav-option a{
+    line-height: 1rem;
+    margin-left: 1.25rem;
 }
