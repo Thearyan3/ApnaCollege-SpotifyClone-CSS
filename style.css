@@ -50,3 +50,7 @@ a{
     height: 100px;
     padding: 0.5rem 0.75rem;
 }
+
+.nav-option{
+    line-height: 2.5rem;
+}
