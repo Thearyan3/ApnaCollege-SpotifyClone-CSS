@@ -106,3 +106,20 @@ a {
 .icons i:hover {
     opacity: 1;
 }
+
+.box {
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+}
+
+.box-p2 {
+    font-size: 0.75rem;
+    opacity: 0.75rem;
+}
