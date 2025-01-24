@@ -17,13 +17,15 @@ body {
 .sidebar {
     background-color: darkgreen;
     width: 340px;
-    border-radius: 1rem; /*16px*/
+    border-radius: 1rem;
+    /*16px*/
 }
 
 .main-content {
     background-color: #121212;
     flex: 1;
-    border-radius: 1rem; /*16px*/
+    border-radius: 1rem;
+    /*16px*/
     overflow: auto;
 }
 
@@ -35,13 +37,13 @@ body {
     height: 72px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 
 }
 
-.nav{
+.nav {
     background-color: #121212;
     border-radius: 1rem;
     display: flex;
@@ -51,22 +53,36 @@ a{
     padding: 0.5rem 0.75rem;
 }
 
-.nav-option{
+.nav-option {
     line-height: 2.5rem;
     opacity: 0.75;
     padding: 0.5rem 0.75rem;
 }
 
-.nav-option:hover{
+.nav-option:hover {
     line-height: 2.5rem;
     opacity: 1;
 }
 
-.nav-option i{
+.nav-option i {
     line-height: 1.25rem;
 }
 
-.nav-option a{
+.nav-option a {
     line-height: 1rem;
     margin-left: 1.25rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+}
+
+.options {
+    display: flex;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
 }
