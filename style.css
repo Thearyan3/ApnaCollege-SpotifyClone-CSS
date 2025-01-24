@@ -76,10 +76,15 @@ a {
 .library {
     background-color: #121212;
     border-radius: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    height: 100%;
 }
 
 .options {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .lib-option img {
