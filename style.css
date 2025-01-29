@@ -49,7 +49,30 @@ body {
 
 .controls {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.controls img{
+    height: 2rem;
+}
+
+.controls .img1{
+    height: 2.45rem;
+}
+
+.controls .img2{
+margin-top: 0.45rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 0;
+    height: 0;
+    background: transparent; 
+    border: none; 
+  }
 
 .player-controls {
     display: flex;
